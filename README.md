@@ -9,7 +9,7 @@ draws it with [rich](https://github.com/Textualize/rich), handles the keyboard
 and keeps the history so you can go back.
 
 [![tests](https://github.com/mredwardlik/pymenu/actions/workflows/tests.yml/badge.svg)](https://github.com/mredwardlik/pymenu/actions/workflows/tests.yml)
-![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![rich](https://img.shields.io/badge/rich-terminal_UI-8A2BE2?style=flat-square)
 ![Platforms](https://img.shields.io/badge/Windows_·_Linux_·_macOS-555?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
@@ -41,7 +41,7 @@ and keeps the history so you can go back.
 pip install git+https://github.com/mredwardlik/pymenu.git
 ```
 
-Python 3.9 or newer. The only dependency is `rich`.
+Python 3.10 or newer. The only dependency is `rich`.
 
 ## 🧑‍💻 Quick start
 

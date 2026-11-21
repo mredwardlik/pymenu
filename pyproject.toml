@@ -9,7 +9,7 @@ description = "Console menus made of pages, with arrow keys, numbers and command
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Edward Lik" }]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = ["rich>=12"]
 keywords = ["menu", "console", "terminal", "cli", "tui", "rich"]
 classifiers = [
