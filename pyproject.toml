@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymenu"
+version = "1.0.0"
+description = "Console menus made of pages, with arrow keys, numbers and commands"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Edward Lik" }]
+requires-python = ">=3.9"
+dependencies = ["rich>=12"]
+keywords = ["menu", "console", "terminal", "cli", "tui", "rich"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Software Development :: User Interfaces",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/mredwardlik/pymenu"
+Issues = "https://github.com/mredwardlik/pymenu/issues"
+
+[tool.setuptools]
+packages = ["pymenu"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "pymenu"]
+addopts = "--doctest-modules"
+pythonpath = ["tests"]
